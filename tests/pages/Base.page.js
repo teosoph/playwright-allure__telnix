@@ -1,10 +1,16 @@
 exports.BasePage = class BasePage {
-  /**
-   * @param {import('@playwright/test').Page} page
-   */
-  constructor(page) {
+  constructor(page, validUserData) {
     this.page = page;
     this.cookies__CloseButton = page.locator('button[aria-label="close and deny"]');
+    this.validUserData = {
+      workEmail: "test123test@test.com",
+      fullName: "Igor Kirich",
+      password: "Test1234567890-",
+      firstName: "Igor",
+      lastName: "Kirich",
+      phoneNumber: "677206363",
+      companyWebsite: "https://www.ukr.net",
+    };
   }
 
   async goto(url) {
