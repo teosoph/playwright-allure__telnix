@@ -1,0 +1,23 @@
+{
+  "name": "playwright-allure__telnix",
+  "version": "1.0.0",
+  "description": "This repository was created to learn how to use playwright and allure when testing the telnix.com site",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teosoph/playwright-allure__telnix.git"
+  },
+  "keywords": [],
+  "author": "teosoph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teosoph/playwright-allure__telnix/issues"
+  },
+  "homepage": "https://github.com/teosoph/playwright-allure__telnix#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "allure-commandline": "^2.18.1",
+    "allure-playwright": "^2.0.0-beta.18"
+  }
+}
